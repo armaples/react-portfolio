@@ -1,15 +1,34 @@
-// Needs to provide developer's name & navigation with titles corresponding to different sections
-
 import React from 'react';
 import '../styles/Header.css';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 
-function Header() {
+export default function Header() {
+    const [currentPage, setCurrentPage] = useState('About');
+
+    const renderPage = () => {
+        if (currentPage === 'About') {
+            return <About />;
+        }
+        if (currentPage === 'Portfolio') {
+            return <Portfolio />;
+        }
+        if (currentPage === 'Resume') {
+            return <Resume />;
+        }
+        if (currentPage === 'Contact') {
+            return <Contact />;
+        }
+    };
+
+    const handlePageChange = (page) => setCurrentPage(page);
+
     return (
-        <header className="header">
-            <h1>Alyssa Maples</h1>
-            <Navigation />
-        </header>
+        <div>
+            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+            {renderPage()}
+        </div>
     )
 };
-
-export default Header;
