@@ -1,1 +1,0 @@
-// Six apps with titled images + links to deployment and repo

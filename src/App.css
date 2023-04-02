@@ -1,4 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Yeseva+One&display=swap');
+
+.navbar-brand {
+  font-family: Yeseva One;
+  font-size: 30px;
+}
+
+.card {
+  margin: 10px;
+  height: 200px;
+}
+
+.card img {
+  max-width: 100%;
+}
+
 .App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #d9dbf1;
+  color: #8e9dcc;
+  font-family: Quicksand;
+}
+
+.App p {
+  text-align: justify;
+}
+
+.App h1 {
   text-align: center;
 }
 
@@ -35,4 +63,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Pages {
+  padding: 50px;
 }
