@@ -11,10 +11,10 @@ This application is a basic portfolio using React. There are three pages to view
 - [License](#license)
 
 ## Application Preview
-![Preview](./images/appPreview.png)
+![Preview](./src/images/appPreview.png)
 
 ## Deployed Application
-[Click here to view the Deployed Application on Heroku](https://agile-reef-78126.herokuapp.com/)
+[Click here to view the Deployed Application on Heroku](https://radiant-meadow-15180.herokuapp.com/)
 
 ## Questions
 Please visit my [GitHub Page](https://github.com/armaples) or [email me](mailto:raynemaples@gmail.com).
