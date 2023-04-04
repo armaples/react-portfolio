@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import About from './components/pages/About';
 import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
@@ -13,20 +13,25 @@ function App() {
     <div className='App'>
     <Header />
     <div className='Pages'>
+        <Router>
             <Routes>
+            <Route 
+            path="/react-portfolio/*"
+            element={<Navigate replace to="/about" />} />
             <Route
-              path="/about" 
+              path="/react-portfolio/about" 
               element={<About />}
             />
             <Route
-              path="/portfolio" 
+              path="/react-portfolio/portfolio" 
               element={<Portfolio />}
             />
             <Route
-              path="/resume" 
+              path="/react-portfolio/resume" 
               element={<Resume />}
             />
           </Routes>
+        </Router>
         </div>
       <Footer/>
       </div>
