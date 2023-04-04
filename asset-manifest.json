@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.a398ba41.css",
+    "main.js": "/react-portfolio/static/js/main.0184c0d5.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/photo.jpeg": "/react-portfolio/static/media/photo.5fa1e6155bb501a79b4d.jpeg",
+    "static/media/review4u.png": "/react-portfolio/static/media/review4u.f7d019259befd77f264d.png",
+    "static/media/dreamApp.png": "/react-portfolio/static/media/dreamApp.afc68af85b19532d6682.png",
+    "static/media/marvelousLove.png": "/react-portfolio/static/media/marvelousLove.79c8c97111188eb638bd.png",
+    "static/media/weatherForecast.png": "/react-portfolio/static/media/weatherForecast.66cfb9c92534549680d9.png",
+    "static/media/teamProfiles.png": "/react-portfolio/static/media/teamProfiles.1358b4adff9b339a6e85.png",
+    "static/media/notesApp.png": "/react-portfolio/static/media/notesApp.8adfde0843a29757432c.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.a398ba41.css.map": "/react-portfolio/static/css/main.a398ba41.css.map",
+    "main.0184c0d5.js.map": "/react-portfolio/static/js/main.0184c0d5.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a398ba41.css",
+    "static/js/main.0184c0d5.js"
+  ]
+}
