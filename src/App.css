@@ -17,13 +17,13 @@
 .App {
   text-align: center;
   min-height: 100vh;
-  background-color: #d9dbf1;
-  color: #8e9dcc;
+  background-color: #E7EAEE;
+  color: #B388EB;
   font-family: Quicksand;
 }
 
 .App p {
-  text-align: justify;
+  text-align: center;
 }
 
 .App h1 {

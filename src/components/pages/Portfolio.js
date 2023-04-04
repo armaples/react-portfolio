@@ -9,6 +9,8 @@ import marvelApp from '../../images/marvelousLove.png';
 import weatherApp from '../../images/weatherForecast.png';
 import teamApp from '../../images/teamProfiles.png';
 import reviewApp from '../../images/review4u.png';
+import dreamApp from '../../images/dreamApp.png';
+import '../../App.css';
 
 const projects = [
     {
@@ -37,27 +39,30 @@ const projects = [
         url: "https://music-review-4-u.herokuapp.com/login"
     },
     {
-        title: "Coming Soon!",
-        imgUrl: "#",
-        url: "https://github.com/armaples"
+        title: "Dreamscape",
+        imgUrl: dreamApp,
+        url: "https://dreamscape-vision-board.herokuapp.com/visionboard"
     },
 ]
 
 function Portfolio() {
     return (
-        <Row xs={1} sm={2} md={3}>
-            {projects.map((project) => (
-            <Col>
-            <Card>
-                <Card.Img variant="top" src={project.imgUrl} />
-                <Card.Body>
-                    <Card.Title>{project.title}</Card.Title>
-                    <Button variant="primary" href={project.url}>Deployed Application</Button>
-                </Card.Body>
-            </Card>
-            </Col>
-            ))}
-        </Row>
+        <div>
+            <h1>Portfolio</h1>
+                <Row xs={1} sm={2} md={3}>
+                    {projects.map((project) => (
+                    <Col>
+                    <Card>
+                        <Card.Img variant="top" src={project.imgUrl} />
+                        <Card.Body>
+                            <Card.Title>{project.title}</Card.Title>
+                            <Button className="custom-btn" style={{ background: "#8093F1", color: "#F7AEF8" }} href={project.url}>Deployed Application</Button>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+                    ))}
+                </Row>
+        </div>
     )
 }
 

@@ -12,7 +12,7 @@ function Footer() {
             <Container>
                 <Nav.Link href="https://github.com/armaples">GitHub</Nav.Link>
                 <Nav.Link href="https://www.linkedin.com/in/armaples/">LinkedIn</Nav.Link>
-                <Nav.Link href="#">Codepen</Nav.Link>
+                <Nav.Link href="https://codepen.io/armaples">Codepen</Nav.Link>
             </Container>
         </Navbar>
         </div>

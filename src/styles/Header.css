@@ -1,16 +1,16 @@
 .navbar {
-    background: #7D84B2;
+    background: #8093F1;
     color: #f9f9ed;
     justify-content: center;
     padding: 10px;
 }
 
 .navbar a {
-    color: #dbf4a7;
+    color: #F7AEF8;
     padding: 5px;
 }
 
 .navbar a:hover {
-    color: #f9f9ed;
+    color: #72DDF7;
 }
 
