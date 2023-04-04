@@ -16,18 +16,18 @@ function App() {
         <Router>
             <Routes>
             <Route 
-            path="/react-portfolio/*"
+            path="/*"
             element={<Navigate replace to="/about" />} />
             <Route
-              path="/react-portfolio/about" 
+              path="/about" 
               element={<About />}
             />
             <Route
-              path="/react-portfolio/portfolio" 
+              path="/portfolio" 
               element={<Portfolio />}
             />
             <Route
-              path="/react-portfolio/resume" 
+              path="/resume" 
               element={<Resume />}
             />
           </Routes>
